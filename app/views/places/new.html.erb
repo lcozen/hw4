@@ -1,3 +1,5 @@
+
+<div class="container">
 <h1>New Place</h1>
 
 <%= form_with :model => @place do |form| %>
@@ -5,7 +7,8 @@
     <%= form.label "name" %>
     <%= form.text_field "name" %>
   </p>
-  <p>
-    <%= form.submit %>
-  </p>
+
+ <button type="submit" class="btn btn-primary">Submit </button>
+
 <% end %>
+</div>
